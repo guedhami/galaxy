@@ -2,6 +2,7 @@ import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
+const port = process.env.PORT || 3000
 // Setup
 
 const scene = new THREE.Scene();
